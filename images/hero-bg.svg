@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#351923"/>
+      <stop offset="50%" stop-color="#221017"/>
+      <stop offset="100%" stop-color="#170b10"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="35%" r="55%">
+      <stop offset="0%" stop-color="#f3c6ce" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fce4e8"/>
+      <stop offset="50%" stop-color="#d8919b"/>
+      <stop offset="100%" stop-color="#9e4f5c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg)"/>
+  <rect width="800" height="1000" fill="url(#glow)"/>
+  <path d="M 50 950 L 50 390 A 350 350 0 0 1 750 390 L 750 950 Z" fill="none" stroke="url(#rg)" stroke-width="2" stroke-opacity="0.55"/>
+  <circle cx="400" cy="370" r="140" fill="none" stroke="url(#rg)" stroke-width="1.5" stroke-opacity="0.65"/>
+  <text x="400" y="395" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="78" fill="url(#rg)">Madison</text>
+  <text x="400" y="810" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#fff9fa" letter-spacing="5">EXCLUSIVE PORTRAIT</text>
+  <text x="400" y="850" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#e2a3ac" letter-spacing="4">VIP COMPANION &amp; CONTENT ICON</text>
+</svg>
